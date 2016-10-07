@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/tan_background"
+              android:orientation="vertical"
+              tools:context="com.wolver.android.take5app.MainActivity">
+
+    <TextView
+        android:id="@+id/take_5_section"
+        style="@style/CategoryStyle"
+        android:background="@color/category_take5"
+        android:text="@string/take_5"/>
+
+    <TextView
+        android:id="@+id/hazard_report_section"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hazard_report"
+        android:text="@string/hazard_report"/>
+
+</LinearLayout>
